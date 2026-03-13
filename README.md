@@ -94,7 +94,7 @@ Variabel environment opsional:
 
 ### Bantuan opsional
 
-- `start-local.ps1` menampilkan perintah start backend dan frontend dalam satu tempat.
+- `start-local.bat` dapat di-double-click untuk membuka terminal backend dan frontend secara otomatis.
 - `download-model.ps1` mengunduh bobot resmi `RealESRGAN_x4plus.pth` ke folder `models/`.
 
 ## API
