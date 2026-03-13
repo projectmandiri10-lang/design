@@ -39,6 +39,7 @@ Perangkat lunak lokal untuk mengubah foto artwork sablon kaos menjadi vektor SVG
 
 - Install binary Potrace untuk Windows dan pastikan `potrace --version` bisa dijalankan dari PowerShell.
 - Jika Potrace tidak ada di `PATH`, atur `POTRACE_BIN` saat menjalankan backend.
+- Alternatif lokal untuk project ini: letakkan `potrace.exe` di `tools/potrace/potrace-1.16.win64/potrace.exe` dan backend akan mendeteksinya otomatis.
 
 ### 4. Install Dependensi Python
 

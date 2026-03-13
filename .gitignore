@@ -21,4 +21,7 @@ models/*.pt
 models/*.onnx
 backend/.env
 frontend/.env
-
+tools/potrace/
+worker-out.log
+worker-err.log
+.tmp/
