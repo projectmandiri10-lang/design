@@ -49,7 +49,11 @@ Perangkat lunak lokal untuk mengubah foto artwork sablon kaos menjadi vektor SVG
 
 ### 5. Unduh Model Real-ESRGAN
 
-- Letakkan file bobot `RealESRGAN_x4plus` di folder `models/`.
+- Jalankan script resmi repo untuk mengunduh model:
+  - `.\download-model.ps1`
+- Jika ingin memaksa unduh ulang:
+  - `.\download-model.ps1 -Force`
+- File bobot `RealESRGAN_x4plus` akan ditempatkan di folder `models/`.
 - Path yang diharapkan:
   - `models/RealESRGAN_x4plus.pth`
 
@@ -91,6 +95,7 @@ Variabel environment opsional:
 ### Bantuan opsional
 
 - `start-local.ps1` menampilkan perintah start backend dan frontend dalam satu tempat.
+- `download-model.ps1` mengunduh bobot resmi `RealESRGAN_x4plus.pth` ke folder `models/`.
 
 ## API
 
