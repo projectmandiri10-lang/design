@@ -1,0 +1,13 @@
+numpy>=1.26,<3.0
+opencv-python-headless>=4.10.0
+scikit-image>=0.24.0
+svgpathtools>=1.6.1
+
+# Optional but recommended for model-backed super resolution.
+torch>=2.3.0
+basicsr>=1.4.2
+realesrgan>=0.3.0
+
+# Optional experimental refinement.
+# pydiffvg must usually be installed manually on Windows.
+
